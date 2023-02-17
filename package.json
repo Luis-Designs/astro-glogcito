@@ -2,6 +2,7 @@
 	"name": "astro-blog",
 	"type": "module",
 	"version": "0.0.1",
+	"license": "MIT",
 	"scripts": {
 		"dev": "astro dev",
 		"start": "astro dev",
@@ -11,5 +12,8 @@
 	},
 	"dependencies": {
 		"astro": "^2.0.13"
+	},
+	"devDependencies": {
+		"sass": "^1.58.2"
 	}
 }

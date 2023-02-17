@@ -1,0 +1,92 @@
+---
+import MainLayout from "../layouts/MainLayout.astro"
+---
+
+<MainLayout>
+    <div class="form" id="form">
+        <span>Blog</span>
+        <h2>Know yourself</h2>
+        <p>Subscribe to learn about new product features, the latest in technology, solutions, and updates</p>
+        <form action="" method="post">
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+            <button type="submit">Get Started</button>
+            <span>We care about your data in our <a href="#">privacy polity</a></span>
+        </form>
+    </div>
+    <div class="images__section">
+        <div class="images__section__items">
+            <img src="https://blogs.iadb.org/conocimiento-abierto/wp-content/uploads/sites/10/2019/05/banner-computacion-cuantica.png" alt="">
+        </div>
+    </div>
+
+    <p>fjdkfjasdkj</p>
+</MainLayout>
+
+<style lang="sass">
+    .form
+        width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        padding: 10% 8% 12%
+        background-color: #1d2939
+    
+        & *
+            padding: 1% 0
+
+        & h2 
+            font-size: 36px
+        
+        & p
+            width: 50%
+            text-align: center
+            padding: 2% 0
+        
+        & form
+            width: 50%
+            display: flex
+            justify-content: center
+            position: relative
+
+            & input,
+            & button
+                padding: 2.2% 0
+                border-radius: 10px
+                border: 0px
+
+            & input
+                color: #aaa
+                width: 60%
+                padding-left: 1.8%
+                margin: 0 0 0 -2%
+
+            & button
+                background-color: #7f56d9
+                padding: 0 3%
+                margin: 0 0 0 2%
+
+            & span
+                position: absolute
+                font-size: 12px
+                transform: translate(-45%, 160%)
+
+    .images__section
+        width: 100%
+        background-color: #fff
+        padding: 0 8%
+        position: relative
+        display: flex
+        justify-content: center
+
+
+        &__items
+            width: 80%
+            margin-top: -5%
+            position: absolute  
+
+            & img
+                width: 100%
+                height: 100%
+
+</style>
